@@ -35,6 +35,7 @@ export default class Cronometro extends Component{
     let s = this.state;
     s.n = 0;
     this.setState(s);
+    s.botao = 'GO';
   }
   render(){
     return(
